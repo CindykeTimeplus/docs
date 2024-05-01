@@ -1,6 +1,6 @@
 # Showcases
 
-At Timeplus, we drink our own champagne and apply our technologies in many different use cases. Many our customers also contribute creative ways to build real-time solutions with Timeplus. This document lists known use cases in different categories. Hopefully this can inspire you to gain more insights from real-time data with low cost and effort.
+At Timeplus, we drink our own champagne and apply our technologies in many different use cases. Many of our customers also contribute creative ways to build real-time solutions with Timeplus. This document lists known use cases in different categories. Hopefully, this can inspire you to gain more insights from real-time data with low cost and effort.
 
 If you have an interesting use case you'd like to share, please join the [Timeplus Community](https://timeplus.com/slack) on Slack.
 
@@ -30,7 +30,7 @@ As one of our first case studies, check out how leading fintech player Alpha Str
 
 ### Real-time observability
 
-At Timeplus, we collect various logs, metrics and usage data and send them to our own Timeplus workspace for continuously infrastructure monitoring and alerts.
+At Timeplus, we collect various logs, metrics, and usage data and send them to our own Timeplus workspace for continuous infrastructure monitoring and alerts.
 
 [Read case study](https://www.timeplus.com/post/unlocking-cloud-observability-with-confluent-and-timeplus-cloud)
 
@@ -44,7 +44,7 @@ At Timeplus, we collect various logs, metrics and usage data and send them to ou
 
 ### Metering for usage-based pricing
 
-By leveraging streaming SQL, [Versioned Stream](versioned-stream), [HTTP ingestion](ingest-api), [HTTP sink](destination#http) and many other features, we collect real-time infrastructure usage per tenants, apply lookup and aggregation, and send data to our usage-based pricing vendor, ([Paigo](https://paigo.tech/)).
+By leveraging streaming SQL, [Versioned Stream](versioned-stream), [HTTP ingestion](ingest-api), [HTTP sink](destination#http), and many other features, we collect real-time infrastructure usage per tenants, apply lookup and aggregation, and send data to our usage-based pricing vendor, ([Paigo](https://paigo.tech/)).
 
 [Read case study](https://www.timeplus.com/post/usage-based-pricing-with-timeplus-and-paigo).
 
@@ -52,7 +52,7 @@ By leveraging streaming SQL, [Versioned Stream](versioned-stream), [HTTP ingesti
 
 ### Real-time GitHub insights
 
-We all love GitHub. But do you know what’s trending on Github right now? We built a real-time app with Timeplus API and GitHub API.
+We all love GitHub. But do you know what’s trending on GitHub right now? We built a real-time app with Timeplus API and GitHub API.
 
 [Read case study](https://www.timeplus.com/post/github-real-time-app) | Demo: [Timeplus Cloud](https://demo.timeplus.cloud), [Streamlit](https://timeplus.streamlit.app/github_dashboard) | [Github repo](https://github.com/timeplus-io/streamlit_apps)
 
@@ -62,7 +62,7 @@ We all love GitHub. But do you know what’s trending on Github right now? We bu
 
 ### SOC2 compliance dashboards&alerts {#soc2}
 
-Timeplus has achieved SOC2 Type 1 compliance [since April 2023](https://www.timeplus.com/post/soc2-type1). We chose [Drata](https://drata.com/) to help us automates the compliance journey. We setup a process to call [Drata Open API](https://drata.com/product/api), and send the compliance findings to Timeplus as a JSON document. We then set up dashboards and a Slack sink to help us monitor the compliance to-do items.
+Timeplus has achieved SOC2 Type 1 compliance [since April 2023](https://www.timeplus.com/post/soc2-type1). We chose [Drata](https://drata.com/) to help us automate the compliance journey. We set up a process to call [Drata Open API](https://drata.com/product/api), and send the compliance findings to Timeplus as a JSON document. We then set up dashboards and a Slack sink to help us monitor the compliance to-do items.
 
 ### Container vulnerability monitoring {#container}
 
@@ -76,7 +76,7 @@ Build real-time monitoring systems for container vulnerabilities with Timeplus. 
 
 ### Monitor Superblocks user activities
 
-At Timeplus, we built a few internal tools with [Superblocks](http://superblocks.com/). To track how our internal tools are being used, we configured Superblocks to send audit logs and user activities to Confluent Cloud, then load them into Timeplus. Next, we built dashboards and alerts in our own platform to understand the usage or capture any potential issues.
+At Timeplus, we built a few internal tools with [Superblocks](http://superblocks.com/). To track how our internal tools are being used, we configured Superblocks to send audit logs and user activities to Confluent Cloud, and then load them into Timeplus. Next, we built dashboards and alerts in our own platform to understand the usage or capture any potential issues.
 
 ![Superblocks dashboard screenshot](https://static.wixstatic.com/media/b32125_f955e16bbdb84ca4866df92a37849243~mv2.png/v1/fill/w_1480,h_572,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/b32125_f955e16bbdb84ca4866df92a37849243~mv2.png)
 
@@ -94,9 +94,9 @@ Many organizations rely on [Slack](https://slack.com/about) to connect people, t
 
 ### Real-time fleet monitoring {#fleet}
 
-Gain real-time visibility into fleet operations using only SQL. Based on real-world customer scenarios, here's how to monitor the entire truck fleet’s status in real-time to detect speeding and fatigued drivers, and to conduct geofencing related checks.
+Gain real-time visibility into fleet operations using only SQL. Based on real-world customer scenarios, here's how to monitor the entire truck fleet’s status in real-time to detect speeding and fatigued drivers, and to conduct geofencing-related checks.
 
-> "We are thrilled to partner with Timeplus and gain real-time visibility to our 2000+ trucks, with much lower latency, smarter alerts and shorter Time-To-Value, compared to our previous solutions." *- Minfeng Xie, Chief Technology Officer, Duckbill*
+> "We are thrilled to partner with Timeplus and gain real-time visibility to our 2000+ trucks, with much lower latency, smarter alerts, and shorter Time-To-Value, compared to our previous solutions." *- Minfeng Xie, Chief Technology Officer, Duckbill*
 
 [Read case study](https://www.timeplus.com/post/case-study-real-time-fleet-monitoring-with-timeplus) | [See live demo](https://demo.timeplus.cloud/)
 
@@ -130,11 +130,11 @@ Like many other companies, we chose [Auth0](https://auth0.com/) as the authentic
 
 ### HubSpot custom dashboards/alerts {#hubspot}
 
-We use [HubSpot](https://hubspot.com/) as our CRM system. We have built sink connectors for both [AirByte](https://github.com/airbytehq/airbyte/pull/21226) and [Meltano](https://github.com/timeplus-io/target-timeplus) Batch jobs are configured to use the HubSpot source connector to send data to Timeplus workspace. This kind of basic customer information can be used to build custom dashboards, alerts and lookups to enrich other data.
+We use [HubSpot](https://hubspot.com/) as our CRM system. We have built sink connectors for both [AirByte](https://github.com/airbytehq/airbyte/pull/21226) and [Meltano](https://github.com/timeplus-io/target-timeplus) Batch jobs are configured to use the HubSpot source connector to send data to Timeplus workspace. This kind of basic customer information can be used to build custom dashboards, alerts, and lookups to enrich other data.
 
 ### Jitsu clickstream analysis
 
-We use the open source [Jitsu](https://jitsu.com/) platform to collect event data from every source - web, email, chatbot, CRM - into our choice of data stack: Timeplus. The free version of Jitsu Cloud allows you to send events out via a webhook. With our powerful [Ingestion API](ingest-api), those page view data arrive in Timeplus workspace in real-time and help us to understand the usage pattern, from past 0.6 second to past 6 months.
+We use the open source [Jitsu](https://jitsu.com/) platform to collect event data from every source - web, email, chatbot, CRM - into our choice of data stack: Timeplus. The free version of Jitsu Cloud allows you to send events out via a webhook. With our powerful [Ingestion API](ingest-api), those page view data arrive in Timeplus workspace in real-time and help us to understand the usage pattern, from the past 0.6 seconds to past 6 months.
 
 ### Real-time Twitter marketing {#twitter}
 
