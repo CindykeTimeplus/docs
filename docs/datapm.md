@@ -1,6 +1,6 @@
 # Load data from files and databases via datapm
 
-Data Package Manager (datapm) is an [open source](https://github.com/big-armor/datapm) data publishing platform for private and public use. The datapm command line tool makes moving data between systems seamless and easily repeatable. A special sink for Timeplus is shipped with the datapm command line tool out-of-box.  You can import data from CSV/S3 to Timeplus, as well as load data from common databases.
+Data Package Manager (datapm) is an [open-source](https://github.com/big-armor/datapm) data publishing platform for private and public use. The datapm command line tool makes moving data between systems seamless and easily repeatable. A special sink for Timeplus is shipped with the datapm command line tool out-of-box.  You can import data from CSV/S3 to Timeplus, as well as load data from common databases.
 
 ## Data Sources
 The following data sources can be loaded into Timeplus with datapm:
