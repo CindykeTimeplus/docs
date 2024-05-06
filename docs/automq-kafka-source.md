@@ -1,6 +1,6 @@
 # Load streaming data from AutoMQ for Kafka
 
-[AutoMQ for Kafka](https://docs.automq.com/docs/automq-s3kafka/YUzOwI7AgiNIgDk1GJAcu6Uanog) is a cloud-native version of Kafka redesigned for cloud environments. AutoMQ Kafka is [open source](https://github.com/AutoMQ/automq-for-kafka) and fully compatible with the Kafka protocol, fully leveraging cloud benefits. Compared to self-managed Apache Kafka, AutoMQ Kafka, with its cloud-native architecture, offers features like capacity auto-scaling, self-balancing of network traffic, moving partition in seconds. These features contribute to a significantly lower Total Cost of Ownership (TCO) for users.
+[AutoMQ for Kafka](https://docs.automq.com/docs/automq-s3kafka/YUzOwI7AgiNIgDk1GJAcu6Uanog) is a cloud-native version of Kafka redesigned for cloud environments. AutoMQ Kafka is [open source](https://github.com/AutoMQ/automq-for-kafka) and fully compatible with the Kafka protocol, fully leveraging cloud benefits. Compared to self-managed Apache Kafka, AutoMQ Kafka, with its cloud-native architecture, offers features like capacity auto-scaling, self-balancing of network traffic, and moving partitions in seconds. These features contribute to a significantly lower Total Cost of Ownership (TCO) for users.
 
 This article will guide you on how to load data from AutoMQ Kafka into Timeplus using the Timeplus Console. Since AutoMQ Kafka is 100% compatible with the Apache Kafka protocol, you can also create an [external stream](external-stream) to analyze data in AutoMQ without moving it.
 
