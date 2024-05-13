@@ -4,7 +4,7 @@ Timeplus Proton supports ANSI-SQL standard syntax. The following functions are p
 
 :::info
 
-Please note, in Proton 1.3.27 or the earlier versions, SQL functions were case-sensitive and always in lower-case. Since 1.3.28, function names are case-insensitive. For example `count`, `COUNT` and `Count` work in the same way. SQL Keywords such as `SELECT` or `FROM` are case-insensitive too. In the rest of the documentation, we use function names in lower case for demonstration. 
+Please note, in Proton 1.3.27 or the earlier versions, SQL functions were case-sensitive and always in lower-case. Since 1.3.28, function names are case-insensitive. For example `count`, `COUNT`, and `Count` work in the same way. SQL Keywords such as `SELECT` or `FROM` are case-insensitive too. In the rest of the documentation, we use function names in lower case for demonstration. 
 
 :::
 
