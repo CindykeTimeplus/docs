@@ -1,0 +1,18 @@
+name: Spell Check
+
+on: [push, pull_request]
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Spellchecker
+        uses: tbroadley/spellchecker-cli-action@v1
+        with:
+          files: '**/*.md'
+      - name: Spellchecker Summary
+        uses: austenstone/spellchecker-cli-action-summary@v1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          spellchecker_output: 'spellchecker_report.json'
